@@ -1,0 +1,48 @@
+.list-box{
+    width: 100vw;
+    margin-top: 20px ;
+    font-size: 20px;
+}
+.list-box h3{
+    width: 100vw;
+    height: 30px;
+    line-height: 30px;
+    font-size: 26px;
+    text-indent: 1em;
+    border-left: 4px solid orange;
+}
+.am-grid-item{
+    display: inline-block !important;
+}
+.am-carousel, .slider-frame, .slider-list, img {
+    width: 100% !important;
+    height: 150px !important;
+}
+.list-box .span{
+     color: #888;
+      font-size: 14px;
+       margin-top: 12px ;
+       font-size: 18px;
+       display: -webkit-box; 
+       -webkit-line-clamp: 2; /* 限定文本的行数*/
+       -webkit-box-orient: vertical;  /* 检索盒子的子元素的排列方式 */
+       overflow: hidden; 
+       text-overflow: ellipsis;
+}
+.my-list {
+    flex-basis: initial;
+  }
+
+  .am-list-line{
+      font-size: 26px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #f2f2f2;
+  }
+  .am-list-content{
+    margin-left: 20px;
+  }
+.am-list-extra{
+    font-size: 30px;
+    margin-right: 40px;
+}

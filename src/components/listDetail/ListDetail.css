@@ -1,0 +1,16 @@
+.list-title{
+    display: flex;
+    height: 300px;
+    font-size: 26px;
+    background-color: lightblue;
+    /* text-align: center; */
+}
+.list-title img{
+    margin: 55px;
+    width: 150px !important;
+    height: 150px !important;
+}
+.list-title p{
+    margin-top: 55px;
+    width: 65%;
+}

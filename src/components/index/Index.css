@@ -1,0 +1,26 @@
+.head{
+    width: 100vw;
+    height: 60px;
+    background: orange;
+    font-size: 28px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+}
+.nav-box{
+    background: #fff;
+    width: 100vw;
+    height: 50px;
+    font-size: 24px;
+    display: flex;
+    line-height: 50px;
+    justify-content: space-evenly;
+    border-bottom: 1px solid ;
+}
+.active{
+    color: orange;
+    border-bottom: 3px solid orange;
+}
+.am-carousel,.slider-frame,.slider-list,img{
+    height: 160px !important;
+}

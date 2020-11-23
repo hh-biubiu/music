@@ -1,0 +1,42 @@
+.top-box{
+    width: 100vw;
+    height: 300px;
+    background-color: lightblue;
+    position: relative;
+}
+.circle-box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 200px;
+    background: url(../../assets/img/disc-ip6.png);
+    background-size:100% 100%
+}
+.inner{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.anticon{
+    font-size: 60px;
+}
+.song-box{
+    height: 300px;
+    margin: 20px 0px;
+    overflow: hidden;
+    text-align: center;
+}
+.am-list-content{
+    width: 100%;
+}
+.song-area{
+    line-height: 40px;
+    transition-duration: 600ms;
+    /* 滚动速度 */
+    
+}

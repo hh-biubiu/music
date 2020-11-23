@@ -1,0 +1,16 @@
+.ant-input-group .ant-input {
+    height: 50px;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: inherit;
+    font-size: 22px ;
+}
+button, html [type="button"] {
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.ant-btn-lg {
+    margin: 10px;
+}
